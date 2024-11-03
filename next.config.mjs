@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-
 const nextConfig = {
   reactStrictMode: true,
-  output: 'export',
-  basePath: isProd ? '/fumi-nozawa' : '', // replace "my-portfolio" with your repo name
+  output: 'export', // Ensure this line is present to use the static export feature
+  basePath: process.env.NODE_ENV === 'production' ? '/fumi-nozawa' : '', // Adjust this based on your repo name
 };
 
-module.exports = nextConfig;
+export default nextConfig;
