@@ -21,9 +21,9 @@ export default function Home() {
       <div style={{ marginTop: '2em' }}>
         <h2>Solutions</h2>
         <ul style={{ listStyle: 'none', padding: 0 }}>
-          <li><a href="https://github.com/yourusername/project1" target="_blank">Project 1</a></li>
-          <li><a href="https://github.com/yourusername/project2" target="_blank">Project 2</a></li>
-          <li><a href="https://github.com/yourusername/project3" target="_blank">Project 3</a></li>
+          <li><a href="https://github.com/yourusername/project1" target="_blank" rel="noopener noreferrer">Project 1</a></li>
+          <li><a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">Project 2</a></li>
+          <li><a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer">Project 3</a></li>
           {/* Add more projects as needed */}
         </ul>
       </div>
