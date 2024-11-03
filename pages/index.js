@@ -1,11 +1,11 @@
-// pages/index.js
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', maxWidth: '600px', margin: '2em auto', padding: '1em' }}>
       <h1 style={{ textAlign: 'center' }}>Fumi Nozawa</h1>
       <div style={{ textAlign: 'center' }}>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src="/profile.jpg"
           alt="Your profile picture"
           width={150}
