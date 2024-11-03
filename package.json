@@ -10,12 +10,10 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "dependencies": {
-    "next": "15.0.2",
-    "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
-  },
   "devDependencies": {
     "gh-pages": "^6.2.0"
+  },
+  "dependencies": {
+    "next": "^13.3.0"
   }
 }
