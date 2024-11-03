@@ -1,11 +1,11 @@
-import Image from 'next/image';
-
+// pages/index.js
 export default function Home() {
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', maxWidth: '600px', margin: '2em auto', padding: '1em' }}>
-      <h1 style={{ textAlign: 'center' }}>Fuminozawa</h1>
+      <h1 style={{ textAlign: 'center' }}>Fumi Nozawa</h1>
       <div style={{ textAlign: 'center' }}>
-        <Image
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
           src="/profile.jpg"
           alt="Your profile picture"
           width={150}
@@ -14,7 +14,8 @@ export default function Home() {
         />
       </div>
       <p style={{ textAlign: 'center', marginTop: '1em' }}>
-        This is a brief description about you. You can talk about your experience, your interests, or a summary of what you do.
+        I&apos;m a digital marketer and web developer with a passion for creating engaging online experiences. I specialize in
+        designing user-friendly websites and optimizing digital marketing strategies to help brands grow.
       </p>
 
       <div style={{ marginTop: '2em' }}>
