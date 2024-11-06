@@ -3,7 +3,7 @@ export default function Home() {
     <div className="max-w-xl mx-auto mt-8 p-4">
       <div className="mb-4">
         <img
-          src="/profile.jpg"
+          src="/out/profile.jpg"
           alt="Your profile picture"
           className="w-24 h-24 rounded-full mx-auto mb-8"
         />
@@ -14,7 +14,7 @@ export default function Home() {
           Digital marketer & web developer. I blend creativity and tech—crafting user-friendly sites, driving brand growth, and leveraging my background in fashion content and photography 📸. Full-stack trained at Le Wagon, I bring a unique tech-savvy edge to digital marketing.
         </p>
         <a
-          href="/resume.pdf"
+          href="/out/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 hover:underline"
