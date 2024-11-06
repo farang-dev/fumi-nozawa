@@ -11,7 +11,7 @@ export default function Home() {
       </div>
       <div className="text-left">
         <p className="mb-4">
-        Digital marketer, leveraging creativity and tech to drive brand growth. With a background in various industries and full-stack training, I bring a unique mix of strategic insight and hands-on expertise to every project.
+        I help brands communicate their true value through creative, impactful content and strategy. With a background in various industries and full-stack training, I leverage creative insight with technical skill to drive real connection and growth.
         </p>
         <a
           href="resume.pdf"
