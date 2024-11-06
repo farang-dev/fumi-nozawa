@@ -11,7 +11,7 @@ export default function Home() {
       </div>
       <div className="text-left">
         <p className="mb-4">
-          Digital marketer & web developer. I blend creativity and tech—crafting user-friendly sites, driving brand growth, and leveraging my background in fashion content and photography 📸. Full-stack trained at Le Wagon, I bring a unique tech-savvy edge to digital marketing.
+        Digital marketer, leveraging creativity and tech to drive brand growth. With a background in various industries and full-stack training, I bring a unique mix of strategic insight and hands-on expertise to every project.
         </p>
         <a
           href="resume.pdf"
@@ -30,7 +30,7 @@ export default function Home() {
           <li>Paid Media Strategy & Optimization (Meta, Google Ads)</li>
           <li>Compelling Content Writing & Creative Strategy</li>
         </ol>
-        <h2 className="text-xl font-semibold mt-6 mb-2">Work Showcase | Samples</h2>
+        <h2 className="text-xl font-semibold mt-6 mb-2">Work Sample List</h2>
         <h3 className="text-lg font-semibold mb-2">Brand Localization</h3>
         <ul className="list-disc list-inside">
         <li>
@@ -40,7 +40,7 @@ export default function Home() {
           </li>
           <li>
             <a href="https://www.boucheron.com/ja_jp/high-jewelry/collections-carte-blanche/ailleurs" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-              Landing page and campaign localization for high jewelry brand (Boucheron)
+              Product page and campaign localization for high jewelry collection (Boucheron)
             </a>
           </li>
           <li>
@@ -50,7 +50,7 @@ export default function Home() {
           </li>
           <li>
             <a href="https://www.boucheron.com/ja_jp/our-maison/the-sense-of-style/the-quatre-icon" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-              Landing page and content localization for jewelry collection (Boucheron)
+              Advertizing campaign page (Boucheron)
             </a>
           </li>
           <li>
