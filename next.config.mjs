@@ -5,6 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable Image Optimization to avoid issues with export
   },
+  basePath: '/repository-name',
+  assetPrefix: '/repository-name/',
 };
 
 export default nextConfig;
