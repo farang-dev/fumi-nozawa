@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable Image Optimization to avoid issues with export
   },
-  basePath: '/repository-name',
-  assetPrefix: '/repository-name/',
+  basePath: '/fumi-nozawa',
+  assetPrefix: '/fumi-nozawa/',
 };
 
 export default nextConfig;
