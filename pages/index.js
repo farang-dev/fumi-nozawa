@@ -7,10 +7,10 @@ export default function Home() {
           alt="Your profile picture"
           className="w-24 h-24 rounded-full mx-auto mb-8"
         />
-        <h1 className="text-2xl font-bold text-left">Hi, I'm Fumi Nozawa</h1>
+        <h1 className="text-2xl font-bold text-left">Fumi Nozawa</h1>
       </div>
       <div className="text-left">
-        
+
         <p className="mb-4">
         I help brands communicate their true value through creative, impactful content and strategy. With a background in various industries and full-stack training, I leverage creative insight with technical skill to drive real connection and growth.
         </p>
