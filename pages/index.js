@@ -133,6 +133,14 @@ export default function Home() {
             </a>
           </li>
         </ul>
+        <h3 className="text-lg font-semibold mb-2">Data Visualization & Analytics Integration</h3>
+        <ul className="list-disc list-inside">
+          <li>
+            <a href="https://lookerstudio.google.com/u/0/reporting/37687a85-8c92-4e75-93a9-a081f4c41208/page/vXEHE" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+              Sample report on Looker Studio - data integration can also be done and customizable
+            </a>
+          </li>
+        </ul>
         <h3 className="text-lg font-semibold mb-2">Web Development</h3>
         <ul className="list-disc list-inside">
           <li>
