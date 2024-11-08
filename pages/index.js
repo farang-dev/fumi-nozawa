@@ -35,11 +35,6 @@ export default function Home() {
         <h3 className="text-lg font-semibold mb-2">Brand Localization</h3>
         <ul className="list-disc list-inside">
         <li>
-            <a href="https://www.axiory.com/jp/trading-products/clash-cfds" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-              Landing page creation and campaign localization for Forex product (Freelance)
-            </a>
-          </li>
-          <li>
             <a href="https://www.boucheron.com/ja_jp/high-jewelry/collections-carte-blanche/ailleurs" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
               Product page and campaign localization for high jewelry collection (Boucheron)
             </a>
@@ -54,14 +49,14 @@ export default function Home() {
               Advertizing campaign page (Boucheron)
             </a>
           </li>
-          <li>
-            <a href="https://www.amazon.co.jp/primeday" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-              Program localization of Amazon Prime Day and the related pages for the Japan market (Computer Futures)
+        <li>
+            <a href="https://www.axiory.com/jp/trading-products/clash-cfds" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+              Landing page creation and campaign localization for Forex product (Freelance)
             </a>
           </li>
           <li>
-            <a href="https://github.com/farang-dev/article-gen-bot/blob/master/app.py" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-              SEO article generation by OpenAI API from keywords in keyword group
+            <a href="https://www.amazon.co.jp/primeday" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+              Program localization of Amazon Prime Day and the related pages for the Japan market (Computer Futures)
             </a>
           </li>
         </ul>
