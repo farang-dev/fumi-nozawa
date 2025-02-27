@@ -8,15 +8,19 @@ export default function App({ Component, pageProps }) {
     // Dynamically inject the Typebot script
     
     const typebotInitScript = document.createElement("script");
-    typebotInitScript.type = "module";
-    typebotInitScript.innerHTML = `import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3/dist/web.js'
-    
-    Typebot.initBubble({
-      typebot: "web-gen-chatbot-oo0o2ae",
-      theme: { button: { backgroundColor: "#1D1D1D" } },
-    });
-    `;
-    document.body.append(typebotInitScript);
+typebotInitScript.type = "module";
+typebotInitScript.innerHTML = `import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3/dist/web.js'
+
+Typebot.initBubble({
+  typebot: "web-gen-chatbot-oo0o2ae",
+  previewMessage: { message: "Any questions? " },
+  theme: {
+    button: { backgroundColor: "#0042DA", size: "large" },
+    previewMessage: { backgroundColor: "#FFFFFF" },
+  },
+});
+`;
+document.body.append(typebotInitScript);
     
 
     // Cleanup the script on component unmount
