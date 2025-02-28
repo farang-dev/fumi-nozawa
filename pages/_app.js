@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
     `;
     document.body.append(typebotInitScript);
 
-    // Wait for Typebot to be initialized and change the badge text using MutationObserver
+    // Wait for Typebot to be initialized and change the badge text
     const observer = new MutationObserver(() => {
       const liteBadgeText = document.querySelector("#lite-badge span");
       if (liteBadgeText) {
@@ -30,10 +30,10 @@ export default function App({ Component, pageProps }) {
       }
     });
 
-    // Observe changes in the DOM, specifically looking for the badge
+    // Observe changes in the DOM, specifically looking for the lite-badge
     observer.observe(document.body, { childList: true, subtree: true });
 
-    // Cleanup the script on component unmount
+    // Cleanup the script and observer on component unmount
     return () => {
       document.body.removeChild(typebotInitScript);
       observer.disconnect();
